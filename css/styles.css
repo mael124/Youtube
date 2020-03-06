@@ -1,0 +1,246 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 1rem;
+}
+
+a, a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+input:focus,
+button:focus
+{
+    outline: none;
+}
+
+
+
+/* --------------- NavBar ----------- */
+.topnav
+{
+    width: 100%;
+    height: 7rem;
+    background-color: white;
+    position: fixed;
+    z-index: 9;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: 0px 5px 7px -8px rgba(0,0,0,0.75);
+}
+
+.logo h4
+{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-left: .5rem;
+}
+
+.icon__logo
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.form__nav
+{
+    width: 30%;
+}
+
+.form__nav__input
+{
+    width: 90%;
+    padding: .5rem;
+    border: 1px solid #e2e2e2;
+}
+
+.btn__form
+{
+    width: 10%;
+    background-color: #e2e2e2;
+    border: 1px solid #e2e2e2;
+}
+
+.circle__group
+{
+    width: 20rem;
+}
+
+.circleG
+{
+    width: 3rem;
+    height: 3rem;
+    background-color: #cbcbcb;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+
+/* ------------ SideBar ------------- */
+.sidebar
+{
+    height: 100%;
+    width: 20rem;  
+    position: fixed;
+    top: 7rem; 
+    box-shadow: 3px 0px 9px -7px rgba(0,0,0,0.75);
+}
+
+.sidebar:hover
+{
+    overflow-x: hidden;
+}
+
+.sidebar ul
+{
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.sidebar ul li
+{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+.sidebar ul li:hover 
+{
+    background-color: #fafafa;
+}
+
+.sidebar__icon
+{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.sidebar__link span
+{
+    font-size: 1.4rem;
+    color: black;
+}
+
+.sidebar__text
+{
+    padding: 1rem 3rem;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.sidebar__text__link
+{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.sidebar__btn
+{
+    width: 100%;
+    margin-top: 1rem;
+    padding: .5rem;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.sidebar-btn-icon
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.sidebar-btn-icon img
+{
+    width: 60%;
+    margin-top: .5rem;
+}
+
+.sidebar__btn a span
+{
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.sidebar__link__parcourir
+{
+    border-top: 1px solid black;
+}
+
+/* -------- Cards ------------ */
+.section__cards
+{
+    min-height: 100vh;
+    margin-left: 20rem;
+    background-color: #fafafa;
+    padding-top: 8rem;
+}
+
+.container
+{
+    max-width: 97%;
+}
+
+.card__content
+{
+    height: 20rem;
+    width: 110%;
+    margin-top: 1rem;
+    margin-left: 1rem;   
+}
+
+.card__conetnt__illustration
+{
+    width: 100%;
+    height: 12rem;
+    background-color: #cbcbcb;
+}
+
+.card__content__info
+{
+     align-items: center;
+}
+
+.circle
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: #e2e2e2;
+    margin-right: .5rem;
+}
+
+.description
+{
+    min-height: 4rem;
+    width: 80%;
+}
+
+.card__title
+{
+    min-height: 1.5rem;
+    width: 100%;
+    background-color: #e2e2e2;
+    margin-bottom: .5rem;
+}
+
+.card__desc
+{
+    min-height: 1.5rem;
+    width: 60%;
+    background-color: #e2e2e2;
+}
